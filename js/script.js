@@ -5,6 +5,7 @@ const {createApp} = Vue;
 createApp({
     data() {
         return {
+            currentElement : 0,
             slides : [
                 {
                     image: 'img/01.jpg',
